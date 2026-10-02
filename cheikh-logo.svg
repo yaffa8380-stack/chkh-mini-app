@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="rim" x1="8" y1="4" x2="89" y2="98" gradientUnits="userSpaceOnUse"><stop stop-color="#92eaff"/><stop offset=".3" stop-color="#0978ff"/><stop offset=".6" stop-color="#044ca9"/><stop offset="1" stop-color="#54d9ff"/></linearGradient>
+    <radialGradient id="face"><stop stop-color="#17253c"/><stop offset="1" stop-color="#060b14"/></radialGradient>
+    <linearGradient id="crown" x1="30" y1="20" x2="66" y2="54" gradientUnits="userSpaceOnUse"><stop stop-color="#c3f3ff"/><stop offset=".3" stop-color="#188bff"/><stop offset=".6" stop-color="#0453c6"/><stop offset="1" stop-color="#66dfff"/></linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="#030812" stroke="url(#rim)" stroke-width="2"/>
+  <circle cx="50" cy="50" r="43" fill="url(#face)" stroke="#1b63ad" stroke-width="2" stroke-dasharray="1.8 2.8"/>
+  <circle cx="50" cy="50" r="38" stroke="url(#rim)" stroke-width="1"/>
+  <path d="m30 30 10 9 10-17 10 17 10-9-5 21H35l-5-21Z" fill="url(#crown)" stroke="#7bdfff" stroke-width=".7"/>
+  <path d="M35 48h30v5H35z" fill="url(#crown)"/><circle cx="30" cy="29" r="2.6" fill="#5ad7ff"/><circle cx="50" cy="22" r="2.8" fill="#80eaff"/><circle cx="70" cy="29" r="2.6" fill="#5ad7ff"/>
+  <text x="50" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="900" letter-spacing="-.9" fill="#eef6ff" stroke="#178bff" stroke-width=".35">CHEIKH$</text>
+</svg>
